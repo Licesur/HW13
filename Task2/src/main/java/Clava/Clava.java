@@ -19,4 +19,13 @@ public class Clava {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    public String toString(){
+        if ( light == Light.HASLIGHT){
+        return "Клавиатура: " + typeOfClava + "с подстветкой;\n";
+        }
+        else {
+            return "Клавиатура: " + typeOfClava + "без подсветки;\n";
+        }
+    }
 }

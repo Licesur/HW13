@@ -32,4 +32,8 @@ public class Proc {
     public Vendor getVendor() {
         return vendor;
     }
+    @Override
+    public String toString(){
+        return "Processor: " + vendor + "; " + "Cores: " + cores + ";\n";
+    }
 }

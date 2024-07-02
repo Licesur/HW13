@@ -69,7 +69,8 @@ public class Computer {
     }
 
     public String toString() {
-        return "Computer Info:\n" + "Processor: " + proc.getVendor();
+        return "Computer Info:\n" + proc.toString() + oper.toString()
+                + hdd.toString() + display.toString() + clava.toString();
     }
 }
 

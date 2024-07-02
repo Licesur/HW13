@@ -26,4 +26,8 @@ public class HDD {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    public String toString(){
+        return typeOfHDD + ": " + volume + " GB;\n";
+    }
 }

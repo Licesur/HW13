@@ -26,4 +26,7 @@ public class OPM {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+    public String toString(){
+        return "Оперативная память: " + type + " " + volume + " GB;\n";
+    }
 }

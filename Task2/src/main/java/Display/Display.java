@@ -26,4 +26,8 @@ public class Display {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    public String toString(){
+        return "Display: " + diag + "\" " + typeOfDisplay + ";\n";
+    }
 }
